@@ -8,10 +8,10 @@
   --bgr-grey-color: #f5f4fa;
   --bgr-darck-color: #2f303a;
 }
-/* section {
+ section {
   background-color: var(--primary-white-color);
   width: 100%;
-  margin: 0 auto; */
+  margin: 0 auto; }
 
   .conteiner{
   max-width: 1200px;
@@ -110,7 +110,7 @@ body {
 /* HERO */
 .hero {
   text-align: center;
-  background-color: var(--bgr-darck-color);
+  background-color: var(--bgr-darck-color); 
 }
 .hero-title {
 margin-top: 0;
@@ -189,6 +189,10 @@ margin-bottom: 30px;
   }
 
 /* main-page */
+.conteiner .feature-list{
+  margin-top: 66.41px ;
+}
+
 
 .feature-list .title
 {
@@ -206,6 +210,10 @@ margin-bottom: 30px;
  font-size: 14px;
  line-height: 1.71;
 }
+.feature-list p{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
 
 .main-title{
   color: var(--primary-text-color);
@@ -218,6 +226,8 @@ margin-bottom: 30px;
 }
 
 .action-photo .title {
+  margin-top:  118px;
+  margin-bottom: 0px;
   color: var(--primary-text-color);
 
   font-weight: 700;
