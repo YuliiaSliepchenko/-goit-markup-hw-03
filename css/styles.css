@@ -253,6 +253,26 @@ margin-bottom: 30px;
   line-height: 1.19;
  
 }
+.our-team p{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.our-team h3{
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+ .our-team.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+ }
+ .action-photo.section{
+  padding-top: 0px;
+  padding-bottom: 94px;
+ }
+ .help.section{
+  padding-top: 94px;
+  padding-bottom: 0px;
+ }
 
 .block-photo .title {
   color: var(--primary-text-color);
