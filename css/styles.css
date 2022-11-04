@@ -48,9 +48,9 @@ body {
   list-style: none;
 }
 
-.conteiner-header{
+/* .conteiner-header{
   display: flex;
-  align-items: center;}
+  align-items: center;} */
 
 .logo {
 
@@ -67,9 +67,9 @@ body {
 
 /* site-nave */
 
-.conteiner-nav{
-   display: flex;
+.conteiner.header-nav{
   align-items: center;
+  display: inline-block;
 }
  .site-nave{
   display: flex;
