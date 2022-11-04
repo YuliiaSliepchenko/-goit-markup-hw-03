@@ -68,12 +68,20 @@ body {
 /* site-nave */
 
 .conteiner-nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav{
    display: flex;
-  align-items: center;
+  justify-content: flex-start;
 }
  .site-nave{
   display: flex;
   align-items: center; 
+}
+.site-nave.list{
+  margin-left: 94px;
 }
 .site-nave li{
   margin-right: 50px;
@@ -94,6 +102,7 @@ body {
 
 
 .logo-link {
+  
   margin: 32px 0px;
   color: var(--accent-color);
   font-family: Raleway;
@@ -106,8 +115,11 @@ body {
 
 .site-nave .link {
   display: block;
-  padding-top: 32px;
-  pb23
+
+.site-nave .list{
+margin-left: 94px;
+  }
+   
 
 color: var(--primary-text-color);
 
