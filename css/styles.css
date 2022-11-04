@@ -66,10 +66,6 @@ body {
 
 /* site-nave */
 
-.conteiner-nav{
-  display: flex;
-  justify-content: space-between;
-}
 
 .header-nav{
    display: flex;
@@ -451,7 +447,7 @@ button {
 .footer-nave .link {
   display: inline-block;
    margin-bottom: 9px;
-   
+
   color: var(--secondary-white-color);
 
   font-weight: 400;
