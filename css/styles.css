@@ -32,6 +32,8 @@ p,
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
+  
 }
 
 body {
@@ -43,11 +45,7 @@ body {
 }
 /* header */
 
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
+
 
 .logo {
   color: #000000;
@@ -236,16 +234,24 @@ margin-left: 94px;
   font-size: 16px;
   line-height: 1.62;
 }
- 
 
-.button-secondary li{
-display: inline-block;
-  justify-content: center;
-  align-items: center;
+.button-secondary{
+display: flex;
+justify-content: center;
+gap: 8px;
+margin-bottom: 50px;
+}
+.filter-btn{
+  padding: 6px 22px;
+  border-radius: 4px;
+  background-color: var(--bgr-grey-color);
+  cursor: pointer;
+  border: 0ch;
+
 }
 
 
-.button-secondary .link {
+/* .button-secondary .link {
   min-width: 73px;
   display: inline-block;
   border-radius: 4px;
@@ -261,7 +267,7 @@ display: inline-block;
   line-height: 1.62;
 
   font-family: inherit;
-}
+} */
 
 .button-secondary .link:hover,
 .button-secondary .link:focus {
@@ -353,17 +359,14 @@ button {
   width: 100%;
   text-align: center;
 }
-.section-category .list{
+.section-category {
   margin-bottom: 50px;
   display: flex;
   gap: 30px;
   width: 100%;
   text-align: center;
   justify-content: center;
-
-}
-.section-category{
-  max-width: 1200;
+  padding: 94px 0;
 }
 
 .our-team .title {
@@ -403,10 +406,12 @@ button {
   padding-bottom: 0px;
 }
 
-.category-title{
-  align-content: center;
+.block-photo{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
-
 .block-photo .title {
   align-content: center;
   margin-bottom: 4px;
