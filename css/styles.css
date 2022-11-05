@@ -49,10 +49,6 @@ body {
   list-style: none;
 }
 
-/* .conteiner-header{
-  display: flex;
-  align-items: center;} */
-
 .logo {
   color: #000000;
   font-family: Raleway;
@@ -131,14 +127,10 @@ body {
 
 .site-nave .link {
   display: block;
-
-
+}
 .site-nave .list{
+ 
 margin-left: 94px;
-  }
-
-
-  margin-left: 94px;
 
   color: var(--primary-text-color);
 
