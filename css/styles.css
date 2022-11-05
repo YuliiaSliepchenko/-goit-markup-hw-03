@@ -87,6 +87,7 @@ body {
 .header-wraper{
   justify-content: space-between;
   display: flex;
+  border:  1px solid #ECECEC;;
 }
 .site-nave {
   display: flex;
@@ -234,6 +235,7 @@ margin-left: 94px;
 }
 
 .button-secondary .link {
+
   min-width: 73px;
   display: inline-block;
   border-radius: 4px;
@@ -258,6 +260,11 @@ margin-left: 94px;
 }
 button {
   font-family: inherit;
+}
+.button-secondary .list .current{
+  display: flex;
+  justify-content: center;
+
 }
 
 /* main-page */
@@ -388,6 +395,11 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+}
+
+.section-category{
+  display: flex;
+  justify-content: center;
 }
 
 /* footer */
