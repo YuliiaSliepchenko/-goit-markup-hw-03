@@ -62,38 +62,36 @@ body {
 
 /* site-nave */
 
-
-.header-nav{
-   display: flex;
+.header-nav {
+  display: flex;
   justify-content: flex-start;
 }
- .site-nave{
+.site-nave {
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
-.site-nave.list{
+.site-nave.list {
   margin-left: 94px;
 }
-.site-nave li{
+.site-nave li {
   margin-right: 50px;
 }
-.site-nave .item:last-child{
+.site-nave .item:last-child {
   margin-right: 0;
 }
 .header-nav {
   display: flex;
   align-items: center;
 }
-.header-wraper{
+.header-wraper {
   justify-content: space-between;
   display: flex;
-  border:  1px solid #ECECEC;;
+  border: 1px solid #ececec;
 }
 .site-nave {
   display: flex;
   align-items: center;
 }
-
 
 .site-nave li {
   margin-right: 50px;
@@ -113,7 +111,6 @@ body {
 }
 
 .logo-link {
-
   margin-left: 94px;
 
   margin: 32px 0px;
@@ -129,9 +126,8 @@ body {
 .site-nave .link {
   display: block;
 }
-.site-nave .list{
- 
-margin-left: 94px;
+.site-nave .list {
+  margin-left: 94px;
 
   color: var(--primary-text-color);
 
@@ -167,7 +163,6 @@ margin-left: 94px;
   color: var(--accent-color);
 }
 
-
 /* HERO */
 .hero {
   display: flex;
@@ -191,18 +186,16 @@ margin-left: 94px;
   color: var(--primary-white-color);
 }
 
-
 /* button */
 .button {
   color: var(--primary-text-color);
 }
 
 .button-main {
-
   height: 50px;
   width: 216px;
   font-style: normal;
-  box-shadow:0px 4px 4px rgb(0 0 0 / 15%);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
   cursor: pointer;
 
   min-width: 216px;
@@ -235,7 +228,6 @@ margin-left: 94px;
 }
 
 .button-secondary .link {
-
   min-width: 73px;
   display: inline-block;
   border-radius: 4px;
@@ -261,14 +253,12 @@ margin-left: 94px;
 button {
   font-family: inherit;
 }
-.button-secondary .list .current{
+.button-secondary .list .current {
   display: flex;
   justify-content: center;
-
 }
 
 /* main-page */
-
 
 .conteiner .feature-list {
   display: flex;
@@ -306,7 +296,7 @@ button {
   text-align: center;
 }
 
-.action-photo .list{
+.action-photo .list {
   display: flex;
   gap: 30px;
   width: 100%;
@@ -325,26 +315,24 @@ button {
 }
 
 .our-team {
-  background-color:var(--bgr-grey-color);
- padding: 94px;
-  
+  background-color: var(--bgr-grey-color);
+  padding: 94px;
 }
 
-.our-team .items{
+.our-team .items {
   border-color: transparent;
- box-shadow:  0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
- border-radius: 0px 0px 4px 4px;
- ;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.our-team .list{
+.our-team .list {
   display: flex;
   gap: 30px;
   width: 100%;
   text-align: center;
 }
 .our-team .title {
-
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -379,9 +367,7 @@ button {
   padding-top: 94px;
   padding-bottom: 0px;
 }
-.
-
-.block-photo .title {
+. .block-photo .title {
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -397,7 +383,7 @@ button {
   line-height: 1.88;
 }
 
-.section-category{
+.section-category {
   display: flex;
   justify-content: center;
 }
@@ -407,10 +393,10 @@ button {
 .footer {
   background-color: var(--bgr-darck-color);
 }
-.footer .conteiner{
-    display: block;
-    padding-bottom: 60px;
-    padding-top: 60px;
+.footer .conteiner {
+  display: block;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .logo-footer {
   margin-bottom: 20px;
@@ -422,18 +408,18 @@ button {
   line-height: 1.19;
   text-decoration: none;
 }
-.footer .logo-link{
+.footer .logo-link {
   display: inline-block;
   margin-bottom: 20px;
 }
 
-.footer-adress .conteiner{
+.footer-adress .conteiner {
   display: inline-block;
   margin-bottom: 9px;
 }
 .footer-adress .link {
-   display: inline-block;
-   margin-bottom: 9px;
+  display: inline-block;
+  margin-bottom: 9px;
 
   color: var(--primary-white-color);
 
@@ -450,7 +436,7 @@ button {
 
 .footer-nave .link {
   display: inline-block;
-   margin-bottom: 9px;
+  margin-bottom: 9px;
 
   color: var(--secondary-white-color);
 
