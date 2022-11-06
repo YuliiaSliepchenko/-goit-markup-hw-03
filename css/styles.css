@@ -242,8 +242,6 @@ color: var(--primary-text-color);
   line-height: 1.62;
 }
 
-.button-secondary .link 
-
 .button-secondary{
 display: flex;
 justify-content: center;
@@ -345,6 +343,7 @@ button {
   text-align: center;
 }
 .section-category {
+  display: flex;
   width: 100%;
   justify-content: center;
   padding: 94px 0;
