@@ -12,6 +12,7 @@
   background-color: var(--primary-white-color);
   width: 100%;
   margin: 0 auto;
+  padding: 94px 0;
 }
 
 .conteiner {
@@ -84,8 +85,7 @@ body {
 .header-wraper {
   justify-content: space-between;
   display: flex;
-  border: 1px solid #ececec;
-  border:  1px solid #ECECEC;
+  border-bottom:  1px solid #ECECEC;
 }
 .site-nave {
   display: flex;
@@ -119,9 +119,8 @@ color: var(--primary-text-color);
 }
 
 .logo-link {
-  margin-left: 94px;
 
-  margin: 32px 0px;
+  padding:24px 0px;
   color: var(--accent-color);
   font-family: Raleway;
 
@@ -179,12 +178,12 @@ color: var(--primary-text-color);
 .hero {
   
   background-color: var(--bgr-darck-color);
+  padding: 200px 0;
 }
 .hero .conteiner{
   display: flex;
     justify-content: center;
     align-items: center;
-    padding: 200px 0;
     gap: 30px;
     flex-direction: column;
 }
@@ -254,29 +253,38 @@ margin-bottom: 50px;
   background-color: var(--bgr-grey-color);
   cursor: pointer;
   border: 0ch;
+  
+/* font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+text-align: center;
+letter-spacing: 0.03em; */
+
+}
+button {
+  font-family: inherit;
 }
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-button {
-  font-family: inherit;
-}
+
 .button-secondary .link.button-secondary{
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
   color: var(--primary-text-color);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
 
-.action-photo .list {
+.action-photo.list {
   display: flex;
   gap: 30px;
   width: 100%;
@@ -296,7 +304,10 @@ button {
 
 .our-team {
   background-color: var(--bgr-grey-color);
-  padding: 94px;
+  display: flex;
+    gap: 30px;
+    width: 100%;
+
 }
 
 .our-team .items {
@@ -312,12 +323,23 @@ button {
   width: 100%;
   text-align: center;
 }
+.our-team-text{
+  padding: 30px 10px 30px 10px;
+}
 .section-category {
   display: flex;
   width: 100%;
   justify-content: center;
-  padding: 94px 0;
+  
 }
+.conteiner.section-category{
+  display: block;
+}
+.conteiner.action{
+  display: block;
+}
+
+
 
 .our-team .title {
   color: var(--primary-text-color);
@@ -341,18 +363,6 @@ button {
 .our-team h3 {
   margin-top: 30px;
   margin-bottom: 0px;
-}
-.our-team.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.action-photo.section {
-  padding-top: 0px;
-  padding-bottom: 94px;
-}
-.help.section {
-  padding-top: 94px;
-  padding-bottom: 0px;
 }
 
 .block-photo .title {
@@ -398,7 +408,6 @@ button {
     display: flex;
     gap: 30px;
     width: 100%;
-    margin-top: 66.41px;
   }
   
   .feature-list .title {
@@ -437,9 +446,6 @@ button {
   }
   
   .action-photo .title {
-    margin-bottom: 50px;
-  
-    margin-top: 118px;
     color: var(--primary-text-color);
   
     font-weight: 700;
@@ -450,7 +456,6 @@ button {
   
   .our-team {
     background-color: var(--bgr-grey-color);
-    padding: 94px;
   }
   
   .our-team .items {
@@ -469,7 +474,6 @@ button {
   .section-category {
     width: 100%;
     justify-content: center;
-    padding: 94px 0;
   }
   
   .our-team .title {
@@ -494,18 +498,6 @@ button {
   .our-team h3 {
     margin-top: 30px;
     margin-bottom: 0px;
-  }
-  .our-team.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  .action-photo.section {
-    padding-top: 0px;
-    padding-bottom: 94px;
-  }
-  .help.section {
-    padding-top: 94px;
-    padding-bottom: 0px;
   }
   
   .block-photo .title {
@@ -550,7 +542,7 @@ button {
   }
   
   .filling{
-   padding: 24px;
+   padding: 20px 24px;
    border: 1px solid #EEEEEE;
   }
   
@@ -559,11 +551,10 @@ button {
   
   .footer {
     background-color: var(--bgr-darck-color);
+    padding: 60px 0;
   }
   .footer .conteiner {
     display: block;
-    padding-bottom: 60px;
-    padding-top: 60px;
   }
   .logo-footer {
     margin-bottom: 20px;
@@ -577,7 +568,6 @@ button {
   }
   .footer .logo-link {
     display: inline-block;
-    margin-bottom: 20px;
   }
   
   .footer-adress .conteiner {
