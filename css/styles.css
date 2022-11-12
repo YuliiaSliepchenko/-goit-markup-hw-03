@@ -70,11 +70,9 @@ body {
   align-items: center;
 }
 .site-nave.list {
-  margin-left: 94px;
+ padding-left: 94px;
 }
-.site-nave li {
-  margin-right: 50px;
-}
+
 .site-nave .item:last-child {
   margin-right: 0;
 }
@@ -93,7 +91,7 @@ body {
 }
 
 .site-nave li {
-  margin-right: 50px;
+padding-right: 50px;
 }
 .site-nave .item:last-child {
   margin-right: 0;
@@ -103,7 +101,7 @@ body {
   align-items: center;
 }
 .adress-head li {
-  margin-right: 50px;
+  padding-right: 50px;
 }
 .adress-head .item:last-child {
   margin-right: 0;
