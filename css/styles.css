@@ -152,14 +152,8 @@ color: var(--primary-text-color);
   }
 
   
-  color: var(--accent-color);
-  font-family: Raleway;
+ 
 
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-}
 
 .site-nave .link {
   display: block;
@@ -583,7 +577,6 @@ button {
   }
   .footer-adress .link {
     display: inline-block;
-    margin-bottom: 9px;
   
     color: var(--primary-white-color);
   
@@ -601,14 +594,17 @@ button {
   
   .footer-nave .link {
     display: inline-block;
-  
-  
     color: var(--secondary-white-color);font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
     font-style: normal;
   }
+.adress{
+  display: grid;
+gap: 9px;
+}
+
 
 
   .footer-nave .link:hover,
