@@ -73,7 +73,7 @@ body {
  padding-left: 94px;
 }
 
-.site-nave .item:last-child {
+.site-nave .link:nth-last-child(3) {
   margin-right: 0;
 }
 .header-nav {
@@ -118,7 +118,7 @@ color: var(--primary-text-color);
 
 .logo-link {
 
-  padding:24px 0px;
+  margin-bottom:20px;
   color: var(--accent-color);
   font-family: Raleway;
 
@@ -197,7 +197,10 @@ color: var(--primary-text-color);
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
-
+.help{
+ padding-bottom:0;
+ padding-top: 94px;
+}
 /* button */
 .button {
   color: var(--primary-text-color);
@@ -291,18 +294,10 @@ button {
 }
 
 .our-team {
-  background-color: var(--bgr-grey-color);
   display: flex;
     gap: 30px;
     width: 100%;
 
-}
-
-.our-team .items {
-  border-color: transparent;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team .list {
@@ -313,6 +308,7 @@ button {
 }
 .our-team-text{
   padding: 30px 10px 30px 10px;
+ text-align: center;
 }
 .section-category {
   display: flex;
@@ -336,22 +332,12 @@ button {
   font-size: 16px;
   line-height: 1.19;
 }
-.our-team .discription {
-  margin-bottom: 30px;
-  color: var(--secondary-text-color);
 
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-}
 .our-team p {
   margin-top: 10px;
   margin-bottom: 0px;
 }
-.our-team h3 {
-  margin-top: 30px;
-  margin-bottom: 0px;
-}
+
 
 .block-photo .title {
   color: var(--primary-text-color);
@@ -442,11 +428,12 @@ button {
     text-align: center;
   }
   
-  .our-team {
+  .team{
     background-color: var(--bgr-grey-color);
   }
   
   .our-team .items {
+    background: var(--primary-white-color);
     border-color: transparent;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -472,7 +459,7 @@ button {
     line-height: 1.19;
   }
   .our-team .discription {
-    margin-bottom: 30px;
+  
     color: var(--secondary-text-color);
   
     font-weight: 400;
@@ -483,10 +470,7 @@ button {
     margin-top: 10px;
     margin-bottom: 0px;
   }
-  .our-team h3 {
-    margin-top: 30px;
-    margin-bottom: 0px;
-  }
+  
   
   .block-photo .title {
     color: var(--primary-text-color);
@@ -573,6 +557,9 @@ button {
     line-height: 1.71;
     text-decoration: none;
     font-style: normal;
+  }
+  .footer-adress .link:last-child {
+    margin-bottom: 0;
   }
   .footer-adress .link:hover,
   .footer-adress .link:focus {
