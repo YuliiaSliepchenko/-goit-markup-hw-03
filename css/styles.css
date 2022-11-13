@@ -85,7 +85,9 @@ body {
   display: flex;
   border-bottom:  1px solid #ECECEC;
 }
+.header .logo-link
 .site-nave {
+
   display: flex;
   align-items: center;
 }
@@ -118,7 +120,7 @@ color: var(--primary-text-color);
 
 .logo-link {
 
-  margin-bottom:20px;
+  
   color: var(--accent-color);
   font-family: Raleway;
 
